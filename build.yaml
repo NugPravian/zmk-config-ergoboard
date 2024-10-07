@@ -15,5 +15,5 @@
 
 ---
  board: [ "nice_nano_v2" ]
- shield: [ "ergoboard" ]
+ shield: [ "ergoboard_left", "ergoboard_left" ]
 

@@ -1,0 +1,13 @@
+file_format: "1"
+id: ergoboard
+name: ergoboard
+type: shield
+url: https://github.com/NugPravian/ergoboard
+requires:
+  - Nice!Nano
+features:
+  - keys
+  - underglow
+siblings:
+  - ergoboard_left
+  - ergoboard_right
