@@ -13,16 +13,7 @@
 &kp Q  &kp W  &kp E  &kp R  &kp T                              &kp Y      &kp U  &kp I      &kp O    &kp P
 &kp A  &kp S  &kp D  &kp F  &kp G                              &kp H      &kp J  &kp K      &kp L    &kp SEMI
 &kp Z  &kp X  &kp C  &kp V  &kp B                              &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-                            &kp SPACE  &mo 1    &kp BACKSPACE  &kp ENTER
-            >;
-        };
-
-        menu_layer {
-            bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                             &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&sk LEFT_SHIFT  &tog 2        &none         &none         &mo 3                              &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT               &kp COLON
-&sk LCTRL       &kp X         &kp C         &kp V         &kp B                              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SQT               &kp BACKSLASH
-                                                          &kp SPACE  &none    &kp BACKSPACE  &kp N0
+                            &kp SPACE  &mo 2    &kp BACKSPACE  &kp ENTER
             >;
         };
 
@@ -31,7 +22,16 @@
 &kp ESC    &kp Q  &kp X  &kp E  &kp R                       &kp T   &kp Y  &kp U  &kp I   &kp O
 &kp LSHFT  &kp A  &kp W  &kp D  &kp F                       &kp G   &kp H  &kp J  &kp K   &kp L
 &kp LCTRL  &kp Z  &kp S  &kp C  &kp V                       &kp B   &kp N  &kp M  &trans  &trans
-                                &kp SPACE  &mo 1    &trans  &trans
+                                &kp SPACE  &mo 3    &trans  &trans
+            >;
+        };
+
+        menu_layer {
+            bindings = <
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                             &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&sk LEFT_SHIFT  &tog 1        &none         &none         &tog 3                             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT               &kp COLON
+&sk LCTRL       &sk LEFT_GUI  &kp C         &kp V         &kp B                              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SQT               &kp BACKSLASH
+                                                          &kp SPACE  &none    &kp BACKSPACE  &kp N0
             >;
         };
 
