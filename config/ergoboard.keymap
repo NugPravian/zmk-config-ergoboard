@@ -28,10 +28,10 @@
 
         menu_layer {
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                             &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&sk LEFT_SHIFT  &tog 1        &none         &none         &tog 3                             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT               &kp COLON
-&sk LCTRL       &sk LEFT_GUI  &kp C         &kp V         &kp B                              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SQT               &kp BACKSLASH
-                                                          &kp SPACE  &none    &kp BACKSPACE  &kp N0
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5                             &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&sk LEFT_SHIFT  &tog 1        &bt BT_CLR_ALL  &none         &tog 3                             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT               &kp COLON
+&sk LCTRL       &sk LEFT_GUI  &kp C           &kp V         &kp B                              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SQT               &kp BACKSLASH
+                                                            &kp SPACE  &none    &kp BACKSPACE  &kp N0
             >;
         };
 
