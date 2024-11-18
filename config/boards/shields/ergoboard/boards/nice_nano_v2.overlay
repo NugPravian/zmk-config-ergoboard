@@ -1,11 +1,7 @@
 #include <dt-bindings/led/led.h>
 
- / {
-        chosen {
-            zephyr,led-strip = &rgb_led;
-        };
-
-        rgb_led: ws2812 {
+ 
+rgb_led: ws2812 {
             compatible = "worldsemi,ws2812-gpio";
             chain-length = <1>;
             color-mapping = <LED_COLOR_ID_GREEN
@@ -19,4 +15,7 @@
             delay-t0l = <32>;
         };
   };
-
+/ {
+        chosen {
+            zephyr,led-strip = &rgb_led;
+};
