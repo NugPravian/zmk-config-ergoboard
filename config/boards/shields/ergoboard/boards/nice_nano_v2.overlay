@@ -12,7 +12,7 @@
                              LED_COLOR_ID_RED
                              LED_COLOR_ID_BLUE>;
             reset-delay = <50>;
-            gpios = <&gpio0 0 8>;
+            gpios = <&gpio0 8>;
             delay-t1h = <58>;
             delay-t1l = <32>;
             delay-t0h = <16>;
