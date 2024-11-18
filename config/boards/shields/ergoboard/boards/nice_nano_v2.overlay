@@ -17,5 +17,5 @@ rgb_led: ws2812 {
   };
 / {
         chosen {
-            zephyr,led-strip = &rgb_led;
+            zmk,underglow = &rgb_led;
 };
