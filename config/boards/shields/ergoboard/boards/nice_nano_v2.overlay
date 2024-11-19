@@ -1,7 +1,7 @@
 #include <dt-bindings/led/led.h>
 
  
-rgb_led: ws2812-gpio {
+rgb_led: ws2812@0 {
             compatible = "worldsemi,ws2812-gpio";
             chain-length = <1>;
             color-mapping = <LED_COLOR_ID_GREEN
