@@ -28,19 +28,19 @@
 
         bluethooth {
             bindings = <
-&bt BT_CLR_ALL  &none  &none         &none         &none                         &none  &none  &none  &none  &none
-&none           &none  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                  &none  &none  &none  &none  &none
-&none           &none  &none         &none         &none                         &none  &none  &none  &none  &none
-                                                   &none         &none    &none  &none
+&bt BT_CLR_ALL  &none  &none         &none         &none                          &none  &none  &none  &none  &none
+&none           &none  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                   &none  &none  &none  &none  &none
+&none           &none  &none         &none         &none                          &none  &none  &none  &none  &none
+                                                   &none         &tog 2    &none  &none
             >;
         };
 
         menu_layer {
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5                             &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&sk LEFT_SHIFT  &tog 1        &bt BT_CLR_ALL  &none         &tog 4                             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT               &kp COLON
-&sk LCTRL       &sk LEFT_GUI  &kp C           &kp V         &kp B                              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SQT               &kp BACKSLASH
-                                                            &kp SPACE  &none    &kp BACKSPACE  &kp N0
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                             &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&sk LEFT_SHIFT  &tog 1        &tog 2        &none         &tog 4                             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT               &kp COLON
+&sk LCTRL       &sk LEFT_GUI  &kp C         &kp V         &kp B                              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SQT               &kp BACKSLASH
+                                                          &kp SPACE  &none    &kp BACKSPACE  &kp N0
             >;
         };
 
