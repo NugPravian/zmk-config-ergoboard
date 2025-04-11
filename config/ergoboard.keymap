@@ -53,6 +53,21 @@
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <22 23>;
         };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <15 16>;
+        };
+
+        excamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <3 4>;
+        };
+
+        and {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <13 14>;
+        };
     };
 
     keymap {
@@ -90,7 +105,7 @@
         menu_layer {
             bindings = <
 &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                             &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&sk LEFT_SHIFT  &tog 1        &tog 2        &mo 4         &tog 5                             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT               &kp COLON
+&sk LEFT_SHIFT  &tog 1        &tog 2        &mo 4         &tog 5                             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DOUBLE_QUOTES     &kp COLON
 &sk LCTRL       &sk LEFT_GUI  &kp C         &kp V         &kp B                              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SQT               &kp BACKSLASH
                                                           &kp SPACE  &none    &kp BACKSPACE  &kp N0
             >;
